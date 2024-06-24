@@ -1,0 +1,154 @@
+[{
+  "_id": {
+    "$oid": "655896b001643af7d83e6fbc"
+  },
+  "userid": "652913eeb876684983127ae3",
+  "username": "HARI",
+  "details": {
+    "fname": "Hari",
+    "lname": "Krishnan",
+    "email": "harikrishnan4952@gmail.com",
+    "phno": "07904803566",
+    "city": "Perundurai",
+    "pincode": "638052",
+    "state": "Erode",
+    "street": "77",
+    "apartment": "Nehruji Street",
+    "msg": "Happy Birthday"
+  },
+  "cart": [
+    {
+      "product_id": {
+        "$oid": "652e65743cb769563aaacc6d"
+      },
+      "product_name": "Armani Exchange",
+      "size": "M",
+      "qnt": "1",
+      "price": 900,
+      "img": "monster-black.png"
+    }
+  ],
+  "order_date": "18, Nov 2023",
+  "delivery_date": "25, Nov 2023",
+  "adelivery_date": null,
+  "status": "Cancelled",
+  "total": 900
+},
+{
+  "_id": {
+    "$oid": "655ef08f5fb2da6af57e4211"
+  },
+  "userid": "652913eeb876684983127ae3",
+  "username": "HARI",
+  "details": {
+    "fname": "Hari",
+    "lname": "Krishnan",
+    "email": "harikrishnan4952@gmail.com",
+    "phno": "07904803566",
+    "city": "Perundurai",
+    "pincode": "638052",
+    "state": "Erode",
+    "street": "77",
+    "apartment": "Nehruji Street",
+    "msg": "Happy Birthday"
+  },
+  "cart": [
+    {
+      "product_id": {
+        "$oid": "65588af74ddeb5b1f9175fe9"
+      },
+      "product_name": "CLAFOUTIS",
+      "size": "XL",
+      "qnt": "1",
+      "price": 510,
+      "img": "CLAFOUTIS.png"
+    },
+    {
+      "product_id": {
+        "$oid": "65588af74ddeb5b1f9175fe9"
+      },
+      "product_name": "CLAFOUTIS",
+      "size": "M",
+      "qnt": "1",
+      "price": 510,
+      "img": "CLAFOUTIS.png"
+    }
+  ],
+  "order_date": "23, Nov 2023",
+  "delivery_date": "30, Nov 2023",
+  "adelivery_date": null,
+  "status": "Processing",
+  "total": 1020
+},
+{
+  "_id": {
+    "$oid": "65682e24745997e01a5900e8"
+  },
+  "userid": "65682db4745997e01a5900e7",
+  "username": "NAVEEN",
+  "details": {
+    "fname": "PRAVEEN",
+    "lname": "B",
+    "email": "praveenpopz37@gmail.com",
+    "phno": "06374773856",
+    "city": "PALLADAM",
+    "pincode": "641605",
+    "state": "2",
+    "street": "SAMY AND SAMY GARDEN",
+    "apartment": "Tiruppur",
+    "msg": "delevred"
+  },
+  "cart": [
+    {
+      "product_id": {
+        "$oid": "652e65743cb769563aaacc6d"
+      },
+      "product_name": "Armani Exchange",
+      "size": "M",
+      "qnt": "3",
+      "price": 900,
+      "img": "monster-black.png"
+    }
+  ],
+  "order_date": "30, Nov 2023",
+  "delivery_date": "07, Dec 2023",
+  "adelivery_date": null,
+  "status": "Cancelled",
+  "total": 2700
+},
+{
+  "_id": {
+    "$oid": "658a675bb4afd48cd181be82"
+  },
+  "userid": "652913eeb876684983127ae3",
+  "username": "HARI",
+  "details": {
+    "fname": "Hari",
+    "lname": "Krishnan",
+    "email": "harikrishnan4952@gmail.com",
+    "phno": "07904803566",
+    "city": "Perundurai",
+    "pincode": "638052",
+    "state": "Erode",
+    "street": "77",
+    "apartment": "Nehruji Street",
+    "msg": "xcvhjkl"
+  },
+  "cart": [
+    {
+      "product_id": {
+        "$oid": "652e65743cb769563aaacc6d"
+      },
+      "product_name": "Armani Exchange",
+      "size": "M",
+      "qnt": "1",
+      "price": 900,
+      "img": "monster-black.png"
+    }
+  ],
+  "order_date": "26, Dec 2023",
+  "delivery_date": "02, Jan 2024",
+  "adelivery_date": null,
+  "status": "Processing",
+  "total": 900
+}]

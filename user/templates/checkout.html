@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Male_Fashion Template">
+    <meta name="keywords" content="Male_Fashion, unica, creative, html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Trap | Men's wear</title>
+    {%  include 'link.html' %}
+
+    <style>
+        .thankyou{
+            position: absolute;
+            z-index: 1000;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            background-color: rgba(255, 255, 255, 0);
+            justify-content: center;
+            display: none;
+        }
+        .thankyou .con{
+            width: 70%;
+            height: 70%;
+            display: flex;
+            align-items: center;
+            background-color: white;
+            justify-content: center;
+             box-shadow: 8px 8px 10px rgba(108, 108, 108, 0.87);
+        }
+
+    </style>
+
+    <style>
+
+/* CSS */
+.button-80 {
+  background: #000000;
+  backface-visibility: hidden;
+  /*border-radius: .375rem;
+*/  border-style: solid;
+  border-width: .125rem;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Circular,Helvetica,sans-serif;
+  font-size: 1rem;
+  font-weight: 100;
+  letter-spacing: 3px;
+  line-height: 1.3;
+  padding: .875rem 3rem;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transform: translateZ(0) scale(1);
+  transition: transform .2s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-80:not(:disabled):hover {
+  transform: scale(1.05);
+}
+
+.button-80:not(:disabled):hover:active {
+  transform: scale(1.05) translateY(.125rem);
+}
+
+.button-80:focus {
+  outline: 0 solid transparent;
+}
+
+.button-80:focus:before {
+  content: "";
+  left: calc(-1*.375rem);
+  pointer-events: none;
+  position: absolute;
+  top: calc(-1*.375rem);
+  transition: border-radius;
+  user-select: none;
+}
+
+.button-80:focus:not(:focus-visible) {
+  outline: 0 solid transparent;
+}
+
+.button-80:focus:not(:focus-visible):before {
+  border-width: 0;
+}
+
+.button-80:not(:disabled):active {
+  transform: translateY(.125rem);
+}
+</style>
+</head>
+
+<body>
+    <!-- Page Preloder -->
+    <div id="preloder">
+        <div class="loader"></div>
+    </div>
+    <div class="thankyou">
+        <div class="con row">
+            <div class="icon col-12 text-center mx-3">
+                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 64 64">
+<path d="M 32 3 C 16 3 3 16 3 32 C 3 48 16 61 32 61 C 48 61 61 48 61 32 C 61 16 48 3 32 3 z M 32 6 C 46.4 6 58 17.6 58 32 C 58 46.4 46.3 58 32 58 C 17.6 58 6 46.3 6 32 C 6 17.7 17.6 6 32 6 z M 42.4375 24.484375 A 1.5026503 1.5026503 0 0 0 41.416016 24.960938 L 31.013672 35.814453 L 25.501953 29.876953 A 1.5029526 1.5029526 0 1 0 23.298828 31.921875 L 29.798828 38.921875 A 1.5026503 1.5026503 0 0 0 29.837891 38.962891 L 29.9375 39.0625 A 1.5026503 1.5026503 0 0 0 32.083984 39.039062 L 43.583984 27.039062 A 1.5026503 1.5026503 0 0 0 42.4375 24.484375 z"></path>
+</svg>
+            </div>
+            <div class="col-12 text-center" style="margin-top: -13em; ">
+                <h3 style=" padding-top: 50px;font-weight: 400; font-size: 2rem; letter-spacing: 2px; font-family: Verdana;">Thank You !</h3>
+                <h5 style="padding-top: 20px;font-weight: 600; font-size: 3rem;">{{ session["name"] }}</h5>
+                <h5 class="py-2">Your order have been placed !</h5>
+                <a href="/order" style="margin-top: 30px; color: white" class="button-80">Okay</a>
+            </div>
+
+        </div>
+    </div>
+    <section class="tk">
+    <!-- Offcanvas Menu Begin -->
+    {% include 'offcanva.html' %}
+    <!-- Offcanvas Menu End -->
+
+    <!-- Header Section Begin -->
+    <header class="header">
+        <div class="header__top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-7">
+                        <div class="header__top__left">
+                            <p>Free shipping, 12-day return or refund guarantee.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-5">
+                        <div class="header__top__right">
+                            <div class="header__top__links">
+                                {% include 'topnav.html' %}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-3">
+                    <div class="header__logo">
+                        <a href=""><img src="user/img/logo.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <nav class="header__menu mobile-menu">
+                        <ul>
+                            <li ><a href="/">Home</a></li>
+                            <li class="active"><a href="/shop">Shop</a></li>
+                            <li><a href="#">Customize</a>
+                                <!--<ul class="dropdown">
+                                    <li><a href="./shop-details.html">Shop Details</a></li>
+                                    <li><a href="./shopping-cart.html">Shopping Cart</a></li>
+                                    <li><a href="./checkout.html">Check Out</a></li>
+                                    <li><a href="./blog-details.html">Blog Details</a></li>
+                                </ul>-->
+                            </li>
+                            <li><a href="/order">Orders</a></li>
+                            <li><a href="/about">About Us</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-lg-3 col-md-3">
+                    <div class="header__nav__option">
+                        <a href="/fav"><img src="/user/img/icon/heart.png" alt=""></a>
+                        <a href="/shopping-cart"><img src="/user/img/icon/cart.png" alt=""> <span></span></a>
+                        <div class="price"><i class="fa-solid fa-indian-rupee-sign"></i> {{ t }}</div>
+                    </div>
+                </div>
+            </div>
+            <div class="canvas__open"><i class="fa fa-bars"></i></div>
+        </div>
+    </header>
+    <!-- Header Section End -->
+
+    <!-- Breadcrumb Section Begin -->
+    <section class="breadcrumb-option">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="breadcrumb__text">
+                        <h4>Check Out</h4>
+                        <div class="breadcrumb__links">
+                            <a href="/">Home</a>
+                            <a href="/shop">Shop</a>
+                            <span>Check Out</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Breadcrumb Section End -->
+
+    <!-- Checkout Section Begin -->
+    <section class="checkout spad">
+        <div class="container">
+            <div class="checkout__form">
+                <form action="/checkout" method="post">
+                    <div class="row">
+                        <div class="col-lg-8 col-md-6">
+                            <h6 class="coupon__code"><span class="icon_tag_alt"></span> Have a coupon? <a href="/shopping-cart">Click
+                            here</a> to enter your code</h6>
+                            <h6 class="checkout__title">Billing Details</h6>
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="checkout__input">
+                                        <p>Fist Name<span>*</span></p>
+                                        <input type="text" placeholder="First name" name="fname" required>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="checkout__input">
+                                        <p>Last Name<span>*</span></p>
+                                        <input type="text" name="lname" required placeholder="Last name">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="checkout__input">
+                                <p>Address<span>*</span></p>
+                                <input type="text" placeholder="Street Address" name="street" required class="checkout__input__add">
+                                <input type="text" placeholder="Apartment, suite, lanmark ect (optinal)" required name="apartment">
+                            </div>
+                            <div class="checkout__input">
+                                <p>Town/City<span>*</span></p>
+                                <input type="text" required name="city" placeholder="Town / City">
+                            </div>
+                            <div class="checkout__input">
+                                <p>State<span>*</span></p>
+                                <input type="text" required name="state" placeholder="State">
+                            </div>
+                            <div class="checkout__input">
+                                <p>Postcode / ZIP<span>*</span></p>
+                                <input type="text" placeholder="Postcode / ZIP" required name="pincode">
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="checkout__input">
+                                        <p>Phone number<span>*</span></p>
+                                        <input type="text" placeholder="Phone number" required name="phno">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="checkout__input">
+                                        <p>Email<span>*</span></p>
+                                        <input type="email" name="email" required placeholder="Email">
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="checkout__input">
+                                <p>Order notes<span>*</span></p>
+                                <input type="text" name="notes" required
+                                placeholder="Notes about your order, e.g. special notes for delivery.">
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="checkout__order">
+                                <h4 class="order__title">Your order</h4>
+                                <div class="checkout__order__products">Product <span>Total</span></div>
+                                <ul class="checkout__total__products">
+                                    {% for i in cart %}
+                                    <li> {{ i.product_name }} <span><i class="fa-solid fa-indian-rupee-sign"></i> {{ i.qnt|int * i.price }}</span></li>
+                                   {% endfor %}
+                                </ul>
+                                <ul class="checkout__total__all">
+                                    <li>Subtotal <span><i class="fa-solid fa-indian-rupee-sign"></i> 0</span></li>
+                                    <li>Total <span><i class="fa-solid fa-indian-rupee-sign"></i> {{ total }}</span></li>
+                                </ul>
+                                
+                                <input type="submit" class="site-btn" value="PLACE ORDER">
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- Checkout Section End -->
+
+    <!-- Footer Section Begin -->
+    {%  include 'footer.html' %}
+    <!-- Footer Section End -->
+
+    <!-- Search Begin -->
+    <div class="search-model">
+        <div class="h-100 d-flex align-items-center justify-content-center">
+            <div class="search-close-switch">+</div>
+            <form class="search-model-form">
+                <input type="text" id="search-input" placeholder="Search here.....">
+            </form>
+        </div>
+    </div>
+    <!-- Search End -->
+    </section>
+    <!-- Js Plugins -->
+    {%  include 'script.html' %}
+<script>
+    {% with msg=get_flashed_messages(category_filter=["success"]) %}
+        {% if msg %}
+    $('.thankyou').css('display','flex')
+            $('.tk').css('filter', 'blur(10px)')
+    {% endif %}
+    {% endwith %}
+</script>
+</body>
+
+</html>

@@ -1,0 +1,24 @@
+<div class="offcanvas-menu-overlay"></div>
+    <div class="offcanvas-menu-wrapper">
+        <div class="offcanvas__option">
+            <div class="offcanvas__links">
+                bnmjh j
+                <a href="{{ url_for('user.signin') }}" style="color: black;">Sign in</a>
+                <a href="{{ url_for('user.signup') }}">Sign up</a>
+            </div>
+        </div>
+        <div class="offcanvas__nav__option">
+            {% if not session.get("name") %}
+            <p style="padding-bottom:15px;"><a href="{{ url_for('user.signin') }}" >Sign in </a>|&nbsp;<a href="{{ url_for('user.signup') }}">   Sign up</a></p>
+            {% else %}
+            <p style="padding-bottom:15px;"><a href="#" >{{session.name}}</a>|&nbsp;<a href="{{ url_for('user.logout') }}">Logout</a></p>
+            {% endif %}
+            <a href="{{ url_for('user.fav') }}"><img src="/user/img/icon/heart.png" alt=""></a>
+            <a href="{{ url_for('user.shopping_cart') }}"><img src="/user/img/icon/cart.png" alt=""> <span></span></a>
+            <div class="price"><i class="fa-solid fa-indian-rupee-sign" style="padding-left: 2rem;"></i> {{ t }}</div>
+        </div>
+        <div id="mobile-menu-wrap"></div>
+        <div class="offcanvas__text">
+            <p>Free shipping, 12-day return or refund guarantee.</p>
+        </div>
+    </div>

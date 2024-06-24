@@ -1,0 +1,110 @@
+[{
+  "_id": {
+    "$oid": "652912928f6423272caf4679"
+  },
+  "username": "premnath",
+  "email": "premrocky2000@gmail.com",
+  "mobilenumber": "6369157691",
+  "password": "prem",
+  "role": "user",
+  "fav": [],
+  "cart": [
+    {
+      "product_id": {
+        "$oid": "652e65743cb769563aaacc6d"
+      },
+      "product_name": "Armani Exchange",
+      "size": "XXL",
+      "qnt": "3",
+      "price": 900,
+      "img": "monster-black.png"
+    },
+    {
+      "product_id": {
+        "$oid": "652e65743cb769563aaacc6d"
+      },
+      "product_name": "Armani Exchange",
+      "size": "S",
+      "qnt": "1",
+      "price": 900,
+      "img": "monster-black.png"
+    },
+    {
+      "product_id": {
+        "$oid": "652e65743cb769563aaacc6d"
+      },
+      "product_name": "Armani Exchange",
+      "size": "L",
+      "qnt": "1",
+      "price": 900,
+      "img": "monster-black.png"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "652913eeb876684983127ae3"
+  },
+  "username": "hari",
+  "email": "harikrishnan4952@gmail.com",
+  "mobilenumber": "7904803566",
+  "password": "hari",
+  "role": "user",
+  "fav": [
+    {
+      "$oid": "65588af74ddeb5b1f9175fe9"
+    },
+    {
+      "$oid": "652e65743cb769563aaacc6d"
+    }
+  ],
+  "cart": []
+},
+{
+  "_id": {
+    "$oid": "6529146c58eeb52be74ba204"
+  },
+  "username": "praveen",
+  "email": "praveen2028@gmail.com",
+  "mobilenumber": "6369157691",
+  "password": "2028",
+  "role": "user",
+  "fav": [],
+  "cart": []
+},
+{
+  "_id": {
+    "$oid": "652e4875dfb5523d74873008"
+  },
+  "username": "jayasurya",
+  "email": "jayasuryasenthilkumar2@gmail.com",
+  "mobilenumber": "9629080742",
+  "password": "surya",
+  "role": "user",
+  "fav": [],
+  "cart": []
+},
+{
+  "_id": {
+    "$oid": "655079ae34f9068a0e53f4d8"
+  },
+  "username": "harivardhini",
+  "email": "harivardhini21@gmail.com",
+  "mobilenumber": "9344919593",
+  "password": "hari",
+  "role": "user",
+  "fav": [],
+  "cart": []
+},
+{
+  "_id": {
+    "$oid": "65682db4745997e01a5900e7"
+  },
+  "username": "Naveen",
+  "email": "naveenanand173@gmail.com",
+  "mobilenumber": "9500272160",
+  "password": "12345",
+  "role": "user",
+  "fav": [],
+  "cart": []
+}]
